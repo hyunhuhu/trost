@@ -1,0 +1,147 @@
+@import url(common.css);
+@import url(quick.css);
+@import url(footer.css);
+.top{
+  width: 100%;
+  height: 80px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.top i{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+.top>div{
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top>div>div{
+  font-size: 25px;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+.top>div>img{
+  width: 30px;
+  max-width: 100%;
+  margin-left: 3px;
+}
+.topImg{
+  width: 85%;
+  margin: 0 auto;
+}
+.topImg>img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.testTwo{
+  width: 90%;
+  margin: 50px auto;
+}
+
+.testTwo>h1,
+.testTwo>h2{
+  text-align: center;
+  font-size: 25px;
+}
+.testTwo>h2{
+  margin-top: 50px;
+}
+.testTwo>div{
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testImg{
+  width: 100%;
+  margin-right: 15px;
+}
+.testImg>img{
+  display: block;
+  width: 90%;
+  max-width: 100%;
+  float: right;
+}
+.testCont{
+  width: 100%;
+  padding: 10px;
+}
+.testCont>p{
+  font-size: 14px;
+}
+.testCont>b{
+  font-size: 13px;
+  display: block;
+  padding: 8px 0;
+  margin-bottom: 5px;
+}
+.testCont>a{
+  display: block;
+  text-align: center;
+  background-color: #F67C01;
+  color: #fff;
+  width: 40%;
+  margin: auto;
+  border-radius: 30px;
+  padding: 4px 40px;
+}
+.testList{
+  width: 85%;
+  margin: 0 auto;
+}
+.testList>ul{
+  padding-bottom: 50px;
+}
+.testList>ul>li{
+  width: 90%;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #BFBFBF;
+  border-radius: 20px;
+}
+
+.testList>ul>li p{
+  padding: 7px 0;
+}
+.testList>ul>li h1{
+  font-size: 23px;
+}
+.testList>ul>li a{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #F67C01;
+  color: #fff;
+  margin-top: 5px;
+  padding: 7px 45px;
+  border-radius: 30px;
+}
+.testList>ul>li>div:nth-child(1){
+  width: 100%;
+}
+.testList>ul>li>div:nth-child(1)>img{
+  width: 80%;
+  max-width: 100%;
+  float: right;
+  margin-right: 20px;
+}
+.testList>ul>li>div:nth-child(2){
+  width: 100%;
+}
+

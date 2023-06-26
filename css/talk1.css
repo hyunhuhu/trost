@@ -1,0 +1,23 @@
+@import url(common.css);
+@import url(quick.css);
+@import url(footer.css);
+.top{
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  position: relative;
+}
+.top i{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+.talk{
+  width: 100%;
+}
+.talk>img{
+  width: 100%;
+  max-width: 100%;
+}

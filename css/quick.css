@@ -1,0 +1,44 @@
+/* 고정된 퀵메뉴 */
+.aside{
+	position:fixed;
+	bottom:0px; 
+	left:50%;
+  transform: translateX(-63%);
+	width:160px;
+	height:60px;
+	z-index:180;
+}
+.quickmenu{
+	position:relative; 
+	width:160px;
+	height:60px;
+	z-index:170;
+}
+
+.quickmenu .quick_icon{text-align:center;}
+.quickmenu .quick_icon li{ 
+	position:absolute;
+	bottom:0;
+	left:50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+/* 몸통 */
+.quickbody {
+  width: 160px;
+  height: 160px;
+	margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+	bottom:-75px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.quickbody>a>img{
+  width: 100%;
+  max-width: 100%;
+}

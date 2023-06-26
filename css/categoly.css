@@ -1,0 +1,44 @@
+@import url(common.css);
+@import url(quick.css);
+.top{
+  width: 100%;
+  height: 80px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.top i{ 
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+.top>div{
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top>div>div{
+  font-size: 25px;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+.top>div>img{
+  width: 30px;
+  max-width: 100%;
+  margin-left: 3px;
+}
+.contents{
+  padding-bottom: 80px;
+}
+.contents>ul>li{
+  width: 85%;
+  margin: 0 auto 20px;
+}
+.contents>ul>li img{
+  width: 100%;
+  max-width: 100%;
+}

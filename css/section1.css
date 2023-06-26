@@ -1,0 +1,121 @@
+@import url(common.css);
+@import url(quick.css);
+
+.top{
+  width: 100%;
+  height: 80px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+.top i{
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  font-size: 30px;
+}
+.top>div{
+  line-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top>div>div{
+  font-size: 25px;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+.top>div>img{
+  width: 30px;
+  max-width: 100%;
+  margin-left: 3px;
+}
+
+.aside{
+  display: none;
+  opacity: 0;
+}
+.aside.active{
+  display: block;
+}
+
+
+#gallery{
+  width: 100%;
+}
+#largeImg{
+  width: 100%;
+}
+#largeImg img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.thumbs{
+  width: 100%;
+}
+#gallery>h1{
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  margin: 20px 0;
+}
+.thumbs>div{
+  display: flex;
+  justify-content: space-evenly;
+}
+.thumbs>div>a{
+  display: block;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.thumbs>div>a>img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.button>a>img{
+  display: block;
+  margin: 20px auto;
+}
+
+.thumbs.active>div{
+  display: none;
+  transition: 1s;
+}
+#largeImg.active{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: auto;
+  width: 80%;
+  padding: 20px 20px 100px 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#gallery>h1.active{
+  opacity: 0;
+}
+.button.active{
+  display: none;
+}
+#largeImg.active>img{
+  display: block;
+}
+#largeImg.active::before{
+  content: '오늘의 감정이 출력되었습니다.🤗';
+  width: 88%;
+  margin: auto;
+  height: 100px;
+  line-height: 100px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 23px;
+}

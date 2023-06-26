@@ -1,0 +1,26 @@
+/* footer */
+footer>div{
+  box-sizing: border-box;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.301);
+  width: 100%;
+  height: auto;
+  background-color: #dddddd;
+  padding: 50px 15px 100px;
+  text-align: center;
+}
+footer>div>a>img{
+  margin-bottom: 10px;
+}
+footer>div>p{
+  color: #4e4e4e;
+  font-size: 12px;
+}
+footer>div>p>a{
+  display: inline-block;
+  margin-left: 12px;
+}
+footer>div>address{
+  font-size: 9px;
+  font-style: normal;
+  margin-top: 10px;
+}
